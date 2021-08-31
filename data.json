@@ -1,0 +1,99 @@
+{
+  "shop": [
+    {
+      "id": 1,
+      "imgPath": "img/audi.png",
+      "make": "Audi",
+      "model": "A4",
+      "power": 160,
+      "topSpeed": 260,
+      "price": 25000
+    },
+    {
+      "id": 2,
+      "imgPath": "img/bmw.png",
+      "make": "BMW",
+      "model": "750",
+      "power": 260,
+      "topSpeed": 300,
+      "price": 65000
+    },
+    {
+      "make": "Mercedes",
+      "model": "C200",
+      "power": "150",
+      "topSpeed": "240",
+      "price": "20000",
+      "imgPath": "img/mercedes.png",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "imgPath": "img/bmw-i8.png",
+      "make": "BMW",
+      "model": "i8",
+      "power": 600,
+      "topSpeed": 300,
+      "price": 70000
+    },
+    {
+      "id": 5,
+      "imgPath": "img/audi-s4.png",
+      "make": "Audi",
+      "model": "S4",
+      "power": 300,
+      "topSpeed": 280,
+      "price": 45000
+    },
+    {
+      "id": 6,
+      "imgPath": "img/ford.png",
+      "make": "Ford",
+      "model": "Focus",
+      "power": 150,
+      "topSpeed": 220,
+      "price": 12000
+    },
+    {
+      "id": 7,
+      "imgPath": "img/mercedes-gls.png",
+      "make": "Mercedes",
+      "model": "GLS",
+      "power": 240,
+      "topSpeed": 230,
+      "price": 28000
+    },
+    {
+      "id": 8,
+      "imgPath": "img/audi-tt.png",
+      "make": "Audi",
+      "model": "TT",
+      "power": 240,
+      "topSpeed": 250,
+      "price": 18000
+    }
+  ],
+  "carousel": [
+    {
+      "id": 1,
+      "imgPath": "img/audi.png",
+      "make": "Audi",
+      "model": "A5",
+      "price": 25000
+    },
+    {
+      "id": 2,
+      "imgPath": "img/bmw.png",
+      "make": "BMW",
+      "model": "750",
+      "price": 65000
+    },
+    {
+      "id": 3,
+      "imgPath": "img/mercedes.png",
+      "make": "Mercedes",
+      "model": "C200",
+      "price": "20000"
+    }
+  ]
+}

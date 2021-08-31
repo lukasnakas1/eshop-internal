@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eCars</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo header-item"><img src="img/logo.png" /></div>
+      <div class="search header-item">
+        <input id="search-input" type="text" placeholder="Search..." disabled />
+      </div>
+      <div class="login header-item">
+        <button id="login-btn" disabled>Login</button>
+      </div>
+    </div>
+    <div class="main">
+      <div id="carousel-items" class="carousel">
+        <a class="prev" name="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" name="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div class="items items-container">
+        <button id="add-new-car-btn" onclick="openCarAdditionModal()">
+          Add new car
+        </button>
+        <div id="add-car-modal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Car Details</h2>
+            <form id="car-form">
+              <label>Make: </label>
+              <input
+                type="text"
+                placeholder="Enter car's make"
+                name="make"
+                required
+              />
+
+              <label>Model: </label>
+              <input
+                type="text"
+                placeholder="Enter car's model"
+                name="model"
+                required
+              />
+
+              <label>Power (in kW): </label>
+              <input
+                type="number"
+                placeholder="Enter car's power"
+                name="power"
+                required
+              />
+
+              <label>Top speed (in km/h): </label>
+              <input
+                type="number"
+                placeholder="Enter car's top speed"
+                name="topSpeed"
+                required
+              />
+
+              <label>Price (in Eur): </label>
+              <input
+                type="number"
+                placeholder="Enter car's price"
+                name="price"
+                required
+              />
+              <button id="save-btn" type="submit">Save</button>
+            </form>
+          </div>
+        </div>
+        <ul id="shop-items" class="items"></ul>
+      </div>
+    </div>
+    <div class="footer">Lukas Nakas 2021</div>
+    <script src="script.js"></script>
+  </body>
+</html>
